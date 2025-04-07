@@ -11,7 +11,18 @@ const sourceLang = "en";
 const translationDir = path.join(__dirname, "locales");
 const sourcePath = path.join(translationDir, sourceLang, "common.json");
 const targetLanguages = [
-  "hi", "bn", "sw", "ar", "de", "fr", "es", "id", "ja", "ru", "pt", "tr"
+  "hi",
+  "bn",
+  "sw",
+  "ar",
+  "de",
+  "fr",
+  "es",
+  "id",
+  "ja",
+  "ru",
+  "pt",
+  "tr",
 ];
 
 // 🌐 Translate a single string using Google Translate API (Unofficial)
@@ -32,20 +43,33 @@ async function translateObject(sourceObj, existingObj = {}, toLang) {
     const value = sourceObj[key];
 
     if (typeof value === "string") {
-      if (translated[key]) {
-        console.log(`✅ [${toLang}] Skipped existing: ${key}`);
+      const existingValue = existingObj?.[key];
+
+      if (typeof existingValue === "string" && existingValue.trim() !== "") {
+        console.log(
+          `✅ [${toLang}] Skipped existing: "${key}" = "${existingValue}"`
+        );
+        translated[key] = existingValue;
         continue;
       }
+
       try {
         const translatedText = await translateText(value, toLang);
         translated[key] = translatedText;
         console.log(`✨ [${toLang}] Translated: ${key}`);
       } catch (err) {
-        console.error(`⚠️ [${toLang}] Failed to translate ${key}:`, err.message);
+        console.error(
+          `⚠️ [${toLang}] Failed to translate ${key}:`,
+          err.message
+        );
         translated[key] = value; // fallback
       }
     } else if (typeof value === "object" && value !== null) {
-      translated[key] = await translateObject(value, existingObj[key] || {}, toLang);
+      translated[key] = await translateObject(
+        value,
+        existingObj[key] || {},
+        toLang
+      );
     }
   }
 
@@ -78,10 +102,15 @@ async function runTranslation() {
           fs.copyFileSync(outputPath, backupPath);
           console.log(`📦 Backup created at: ${backupPath}`);
         } else {
-          console.log(`⚠️ [${lang}] common.json was empty. Proceeding with translation.`);
+          console.log(
+            `⚠️ [${lang}] common.json was empty. Proceeding with translation.`
+          );
         }
       } catch (err) {
-        console.error(`❌ [${lang}] Skipping due to JSON parse error:`, err.message);
+        console.error(
+          `❌ [${lang}] Skipping due to JSON parse error:`,
+          err.message
+        );
         continue;
       }
     } else {
