@@ -1,0 +1,16 @@
+{
+  "homepage": {
+    "welcome": "ABC Company'ye hoş geldiniz",
+    "headline": "ABC işinizi zahmetsizce çalıştırın",
+    "sub_headline": "Size iş operasyonlarını nasıl yöneteceğinizi ve ABC işinizi nasıl büyüteceğinizi öğretiyoruz.",
+    "login": "Giriş yapmak",
+    "signup": "Üye olmak"
+  },
+  "contact_us": {
+    "contact_us_heading": "Bize Ulaşın",
+    "name": "İsim",
+    "email": "E -posta",
+    "message": "Mesaj",
+    "submit": "Göndermek"
+  }
+}

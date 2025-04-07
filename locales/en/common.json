@@ -1,0 +1,16 @@
+{
+  "homepage": {
+    "welcome": "Welcome to ABC Company",
+    "headline": "Run Your ABC Business Effortlessly",
+    "sub_headline": "We teach you how to manage business operations and grow your ABC business.",
+    "login": "Login",
+    "signup": "Signup"
+  },
+  "contact_us": {
+    "contact_us_heading": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Submit"
+  }
+}

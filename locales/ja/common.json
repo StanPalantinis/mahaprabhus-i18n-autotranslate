@@ -1,0 +1,16 @@
+{
+  "homepage": {
+    "welcome": "ABC Companyへようこそ",
+    "headline": "ABCビジネスを簡単に実行します",
+    "sub_headline": "私たちはあなたにビジネス運営を管理し、あなたのABCビジネスを成長させる方法を教えてくれます。",
+    "login": "ログイン",
+    "signup": "サインアップ"
+  },
+  "contact_us": {
+    "contact_us_heading": "お問い合わせ",
+    "name": "名前",
+    "email": "メール",
+    "message": "メッセージ",
+    "submit": "提出する"
+  }
+}

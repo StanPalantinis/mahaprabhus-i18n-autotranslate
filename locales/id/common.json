@@ -1,0 +1,16 @@
+{
+  "homepage": {
+    "welcome": "Selamat datang di ABC Company",
+    "headline": "Jalankan bisnis ABC Anda dengan mudah",
+    "sub_headline": "Kami mengajari Anda cara mengelola operasi bisnis dan mengembangkan bisnis ABC Anda.",
+    "login": "Login",
+    "signup": "Mendaftar"
+  },
+  "contact_us": {
+    "contact_us_heading": "Hubungi kami",
+    "name": "Nama",
+    "email": "E-mail",
+    "message": "Pesan",
+    "submit": "Kirim"
+  }
+}

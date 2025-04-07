@@ -1,0 +1,16 @@
+{
+  "homepage": {
+    "welcome": "Willkommen bei ABC Company",
+    "headline": "Führen Sie Ihr ABC -Geschäft mühelos durch",
+    "sub_headline": "Wir bringen Ihnen bei, wie Sie Geschäftsbetriebe verwalten und Ihr ABC -Geschäft ausbauen können.",
+    "login": "Login",
+    "signup": "Melden Sie sich an"
+  },
+  "contact_us": {
+    "contact_us_heading": "Kontaktieren Sie uns",
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "submit": "Einreichen"
+  }
+}

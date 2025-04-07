@@ -1,0 +1,16 @@
+{
+  "homepage": {
+    "welcome": "Bienvenido a ABC Company",
+    "headline": "Dirige tu negocio de ABC sin esfuerzo",
+    "sub_headline": "Le enseñamos cómo administrar las operaciones comerciales y hacer crecer su negocio de ABC.",
+    "login": "Acceso",
+    "signup": "Inscribirse"
+  },
+  "contact_us": {
+    "contact_us_heading": "Contáctenos",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "submit": "Entregar"
+  }
+}

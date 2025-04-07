@@ -1,0 +1,16 @@
+{
+  "homepage": {
+    "welcome": "Karibu katika Kampuni ya ABC",
+    "headline": "Run biashara yako ya ABC bila nguvu",
+    "sub_headline": "Tunakufundisha jinsi ya kusimamia shughuli za biashara na kukuza biashara yako ya ABC.",
+    "login": "Ingia",
+    "signup": "Jisajili"
+  },
+  "contact_us": {
+    "contact_us_heading": "Wasiliana nasi",
+    "name": "Jina",
+    "email": "Barua pepe",
+    "message": "Ujumbe",
+    "submit": "Wasilisha"
+  }
+}

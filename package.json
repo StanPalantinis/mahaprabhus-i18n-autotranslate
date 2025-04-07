@@ -1,0 +1,25 @@
+{
+    "name": "mahaprabhus-i18n-autotranslate",
+    "version": "1.0.0",
+    "description": "🌐 Automatically translate your i18n JSON files into multiple languages with smart merging, using Mahaprabhu’s blessings.",
+    "main": "translate-common-json.js",
+    "type": "module",
+    "scripts": {
+      "translate": "node translate-common-json.js"
+    },
+    "keywords": [
+      "i18n",
+      "translation",
+      "json",
+      "auto-translate",
+      "locales",
+      "nextjs",
+      "mahaprabhu"
+    ],
+    "author": "Mahaprabhu's Dasa",
+    "license": "MIT",
+    "dependencies": {
+      "node-fetch": "^3.3.2"
+    }
+  }
+  
