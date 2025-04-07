@@ -112,7 +112,7 @@ MIT License — Use freely. Attribute if you can. Spread love if you will.
 ## 👤 Creator
 
 This is a humble offering from the **Limofair** project, a platform empowering small transport operators with better tech.  
-Maintained by a lone dasa (devotee) who believes technology should lift people up.
+Created by Mahaprabhu himself, maintained by his dasa who believes technology should lift people up.
 
 GitHub: [github.com/StanPalantinis](https://github.com/StanPalantinis)
 
@@ -127,4 +127,6 @@ Issues and PRs are most welcome. Especially:
 
 Let’s build inclusive tools for the world, one key at a time.
 
-🙏 Jai Mahaprabhu.
+🙏🙏🙏
+🙏🙏🙏 Jai Mahaprabhu.🙏🙏🙏
+🙏🙏🙏
