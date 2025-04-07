@@ -130,3 +130,21 @@ Let’s build inclusive tools for the world, one key at a time.
 🙏🙏🙏
 🙏🙏🙏 Jai Mahaprabhu.🙏🙏🙏
 🙏🙏🙏
+
+
+
+🔄 v1.1 Update – Intelligent Merge Engine
+As of version v1.1, the script now:
+
+🧠 Skips re-translating values already present in existing translation files.
+
+🪶 Ensures translation consistency for production apps (no accidental rewordings).
+
+🗃️ Translates only new keys added to the English source (en/common.json).
+
+This makes it ideal for growing multilingual projects where preserving earlier translations is important.
+
+🌍 Let this help teams, solo devs, and underserved regions bring apps to life in their own languages — with zero cost and maximum grace.
+
+“Language should never be a barrier to dignity.” – Mahaprabhu
+
